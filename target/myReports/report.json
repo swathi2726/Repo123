@@ -1,0 +1,74 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2022-10-28T14:36:47.387Z",
+    "line" : 2,
+    "name" : "Verify Login For valid inputs display message as Successful",
+    "description" : "",
+    "id" : "login-action;verify-login-for-valid-inputs-display-message-as-successful",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 7151409000,
+        "status" : "passed"
+      },
+      "line" : 3,
+      "name" : "User is on Home page",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_is_on_home_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 19334105800,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "user clicks on Signin link check title",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_clicks_on_signin_link_check_title()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 7933453800,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "user enters username and password click on Submit button",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_enters_username_and_password_click_on_submit_button()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 2000100,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "check User name and display Login Successful as a message",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.check_user_name_and_display_login_successful_as_a_message()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 897051300,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "Close Rediff",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.close_rediff()"
+      },
+      "keyword" : "Then "
+    } ]
+  } ],
+  "name" : "Login Action",
+  "description" : "",
+  "id" : "login-action",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/features/TC001_Login.feature",
+  "tags" : [ ]
+} ]
